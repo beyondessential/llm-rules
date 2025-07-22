@@ -32,7 +32,7 @@ Use this rule when you need to update the shared LLM rules to the latest version
 
 6. **Verify the update**: Confirm the rules are accessible:
    ```bash
-   ls llm/common-rules/rules/
+   ls llm/common-rules/
    ```
 
 # Alternative: Update All Submodules

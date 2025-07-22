@@ -4,11 +4,12 @@ This repository contains generic LLM agent rules that can be shared across multi
 
 ## Structure
 
-- `rules/` - Contains all shared LLM rules
-  - `onboard-agent.md` - Standardized agent onboarding process
-  - `commit.md`, `create-branch.md`, `rebase-branch.md` - Git workflows
-  - `write-docs.md`, `write-card-description.md`, `create-rule.md` - Documentation creation
-  - `update-submodule.md`, `get-latest-rules.md` - Submodule management
+All shared LLM rules are located directly in the root directory:
+
+- `onboard-agent.md` - Standardized agent onboarding process
+- `commit.md`, `create-branch.md`, `rebase-branch.md` - Git workflows
+- `write-docs.md`, `write-card-description.md`, `create-rule.md` - Documentation creation
+- `update-submodule.md`, `get-latest-rules.md` - Submodule management
 
 ## Usage
 
@@ -18,7 +19,7 @@ These rules are designed to be used as a git submodule in project repositories:
 git submodule add https://github.com/beyondessential/llm-rules.git llm/common-rules
 ```
 
-LLM agents should reference rules using the path: `llm/common-rules/rules/[rule-name].md`
+LLM agents should reference rules using the path: `llm/common-rules/[rule-name].md`
 
 ## Contributing
 

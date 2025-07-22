@@ -23,7 +23,7 @@ Use this rule when you need to make improvements to the shared LLM rules that sh
    git pull origin main
    ```
 
-4. **Make your changes**: Edit rules in the `rules/` directory or update the README
+4. **Make your changes**: Edit rule files in the root directory or update the README
 
 5. **Stage your changes**: Add the modified files:
 
@@ -65,8 +65,8 @@ Use this rule when you need to make improvements to the shared LLM rules that sh
 
 ```bash
 # Create new rule file
-echo "# New Rule" > rules/new-rule.md
-git add rules/new-rule.md
+echo "# New Rule" > new-rule.md
+git add new-rule.md
 git commit -m "feat: add rule for handling X scenarios"
 ```
 
@@ -74,7 +74,7 @@ git commit -m "feat: add rule for handling X scenarios"
 
 ```bash
 # Edit existing rule
-git add rules/existing-rule.md
+git add existing-rule.md
 git commit -m "fix: clarify process steps in existing-rule"
 ```
 
